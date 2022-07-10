@@ -1,12 +1,12 @@
 body {
-  color: rgb(17, 14, 67);
+  color: rgb(18, 54, 38);
   background-color: rgb(237, 240, 224);
   font-family: sans-serif;
 }
 h1,
 h2,
 h3 {
-  color: rgb(7, 6, 24);
+  color: rgb(18, 54, 38);
 }
 nav ul {
   display: flex;
@@ -14,6 +14,18 @@ nav ul {
   gap: 30px;
   list-style: none;
 }
-/* nav ul li {
-  margin: 20px;
-} */
+nav a {
+  padding: 5px;
+  border: 1px solid rgb(40, 89, 62);
+  border-radius: 5px;
+}
+:hover {
+  background-color: rgba(57, 121, 111, 0.237);
+}
+.active {
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+  color: rgb(35, 140, 73);
+}
