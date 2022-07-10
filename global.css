@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
 body {
   color: rgb(18, 54, 38);
   background-color: rgb(237, 240, 224);
-  font-family: sans-serif;
+  font-family: "Amatic SC", cursive;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,6 +11,7 @@ h1,
 h2,
 h3 {
   color: rgb(18, 54, 38);
+  text-align: center;
 }
 nav ul {
   display: flex;
@@ -21,12 +23,13 @@ nav a {
   padding: 5px;
   border: 1px solid rgb(40, 89, 62);
   border-radius: 5px;
+  font-size: 30px;
 }
 :hover {
   background-color: rgba(57, 121, 111, 0.237);
 }
 .active {
-  text-decoration: underline;
+  background-color: rgba(57, 121, 111, 0.237);
 }
 a {
   text-decoration: none;
@@ -37,4 +40,11 @@ main {
 }
 img {
   width: 100%;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
 }
