@@ -1,0 +1,19 @@
+body {
+  color: rgb(17, 14, 67);
+  background-color: rgb(237, 240, 224);
+  font-family: sans-serif;
+}
+h1,
+h2,
+h3 {
+  color: rgb(7, 6, 24);
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  list-style: none;
+}
+/* nav ul li {
+  margin: 20px;
+} */
