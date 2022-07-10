@@ -2,6 +2,9 @@ body {
   color: rgb(18, 54, 38);
   background-color: rgb(237, 240, 224);
   font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 h1,
 h2,
@@ -28,4 +31,10 @@ nav a {
 a {
   text-decoration: none;
   color: rgb(35, 140, 73);
+}
+main {
+  max-width: 400px;
+}
+img {
+  width: 100%;
 }
